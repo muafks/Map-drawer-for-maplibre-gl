@@ -38,6 +38,9 @@ npm run build
 
 This bundles TypeScript and CSS into a single `dist/index.js` file with type definitions. The CSS is automatically injected into the DOM when the module loads.
 
+## Progress
+Still need to add markers, color changing movement, etc.
+
 ## Distribution
 
 The package includes:
