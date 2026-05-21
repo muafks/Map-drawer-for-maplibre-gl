@@ -1,5 +1,4 @@
 import './geodraw.css';
-// @ts-expect-error
 import * as maplibregl from 'maplibre-gl';
 import type { LngLat } from 'maplibre-gl';
 
@@ -720,3 +719,5 @@ class DrawTools {
 		document.body.append(this.toolBarDiv);
 	}
 }
+
+export default DrawTools;

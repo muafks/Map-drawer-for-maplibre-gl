@@ -21,10 +21,10 @@ Or reference it from a parent directory:
 ## Usage
 
 ```typescript
-import { gitDrawings } from 'mapdrawer';
+import DrawTools from 'mapdrawer';
 
 const map = new maplibregl.Map({...});
-const drawer = new gitDrawings(map);
+const tools = new DrawTools(map);
 ```
 
 The CSS styles are automatically injected into the document when the module is imported, so no additional CSS imports are needed.

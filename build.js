@@ -1,6 +1,6 @@
-const esbuild = require('esbuild');
-const { execSync } = require('child_process');
-const fs = require('fs');
+import esbuild from 'esbuild';
+import { execSync } from 'child_process';
+import fs from 'fs';
 
 // Generate type definitions
 execSync('tsc --emitDeclarationOnly', { stdio: 'inherit' });
