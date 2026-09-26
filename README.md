@@ -4,10 +4,10 @@ A drawing utility for MapLibre GL that allows users to draw on maps.
 
 ## Installation
 
-Since this package is not published to npm, you can use it locally:
+Clone the repo and install the packages:
 
 ```bash
-npm install ./
+npm install .
 ```
 
 Or reference it from a parent directory:
